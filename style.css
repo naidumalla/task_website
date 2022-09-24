@@ -19,6 +19,7 @@
 }
 /* Business Challenges */
 .busines_schallanges h2{
+    margin-top: 5%;
     margin-bottom: 3%;
     font-family: 'Open Sans';
     font-style: normal;
@@ -33,7 +34,9 @@
 .busines_schallanges{
     background: #0E0E0E;
 }
-
+.busines_schallanges .row{
+    display: flex;
+}
 .busines_schallanges .row{
     margin-top: 5%;
     margin-bottom: 5%;
@@ -356,13 +359,11 @@
     line-height: 40px;
     /* identical to box height, or 125% */
 
-    text-align: center;
-
     color: #262626;
 }
 
 details {
-    width: 75%;
+    /* width: 75%; */
     min-height: 5px;
     max-width: 700px;
     padding: 45px 70px 45px 45px;
@@ -537,5 +538,77 @@ section .section-title {
         border-left: transparent;
         padding-bottom: 0px;
         margin-bottom: 10px;
+    }
+    
+
+    /* .body2_video {
+        margin: auto auto;
+        margin-top: 7%;
+        height: 181px;
+        width: 324px;
+
+    } */
+
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .body2_video {
+        margin: auto auto;
+        margin-top: 7%;
+        height: 181px;
+        width: 324px;
+    }
+    /* Business Challenges */
+    .busines_schallanges h2 {
+        margin-top: 10%;
+    }
+
+    .business_challenges_description {
+        margin-left: 0%;
+        margin-right: 3%;
+        width: 100%;
+
+    }
+
+    .business_challenges_headingleft {
+        /* background: url('./Images/yellow_left_responsive.png') !important; */
+        /* background-repeat: no-repeat; */
+        margin-left: 0%;
+    }
+
+    .busines_schallanges .row {
+        flex-direction: column-reverse;
+    }
+
+    .business_challenges_description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #DAD9D7;
+    }
+
+    .business_challenges_headingleft,
+    .business_challenges_headingright {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 40px;
+        color: #FFFFFF;
+    }
+
+    /* How Task Works */
+    .how_task_works {
+        background: #FFFFFF;
+    }
+
+    .how_task_works h2 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .how_task_works_desc {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
     }
 }
