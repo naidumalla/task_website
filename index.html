@@ -19,8 +19,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     </head>
     <body>
-    <section class="navbar">
-        <nav class=" navbar navbar-expand-lg fixed-top py-lg-0 ">
+    <section class=" navbar navbar-expand-lg fixed-top py-lg-0 container-fluid">
         <a class="navbar-brand" href="#">
             <img class="tasklogo" src="./images/task_logo.png" width="90" height="80" alt="">
         </a>
@@ -52,7 +51,6 @@
                 
             </ul>
         </div>
-    </nav>
     </section>
     <br>
     <!-- Hero Section -->
@@ -69,38 +67,40 @@
     <!-- Buiness Challenges -->
     <section class="busines_schallanges container-fluid">
         <h2 class="h2 section_heading text-center">Business Challenges</h2>
-        <div class="row">
-            <div class="col-12 col-md-6 col-xs-6">
+        <div class="row ">
+            <div class="col-md-8 col-xs-12 col-sm-12 col-lg-8 leftdiv ">
                 <h3 class="h3 business_challenges_headingleft">Project Tracking</h3>
                 <p class="business_challenges_description">TASK’s full view ticket management system shows the entire summary of the tickets
 under a certain project and makes tracking huge projects convenient.</p>
             </div>
-            <div class="col-12 col-md-6 col-xs-6 business_challenges_imgdiv">
-                <img class="business_challenges_img" src="" alt="">
+            <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 business_challenges_imgdiv text-center">
+                <img class="business_challenges_img" src="./Images/project_tracking.svg" alt="">
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-6 col-xs-6">
+        <div class="row second_div">
+            <div class="col-md-8 col-xs-12 col-sm-12 col-lg-8 rightdiv">
                 <h3 class="h3 business_challenges_headingright">Monitoring Bugs</h3>
                 <p class="business_challenges_description">TASK addresses the issue of reporting bugs/issues and facilitates keeping a track of all the issues that need to be fixed or that have reopened.</p>
             </div>
-            <div class="col-12 col-md-6 col-xs-6 business_challenges_imgdiv">
-                <img class="business_challenges_img" src="" alt="">
+            <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 business_challenges_imgdiv text-center">
+                <img class="business_challenges_img" src="./Images/monitoring_bugs.svg" alt="">
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-6 col-xs-6">
+            <div class="col-md-8 col-xs-12 col-sm-12 col-lg-8 leftdiv">
                 <h3 class="h3 business_challenges_headingleft">Delivery Management</h3>
                 <p class="business_challenges_description">The milestone tracking feature helps in the time bound delivery management of multiple and huge projects simultaneously. Fixed milestones for each project lead to a smooth delivery process.</p>
             </div>
-            <div class="col-12 col-md-6 col-xs-6 business_challenges_imgdiv">
-                <img class="business_challenges_img" src="" alt="">
+            <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 business_challenges_imgdiv text-center">
+                <img class="business_challenges_img" src="./Images/delivery_management.svg" alt="">
             </div>
         </div>
     </section>
     <!-- How Task Works -->
     <section class="how_task_works container-fluid">
         <h2 class="h2 section_heading text-center">How TASK Works?</h2>
+        <p class="how_task_works_desc text-center">TASK is designed uniquely to be used by any agile developer, manager and administrator.</p>
+
         <div class="row iframecontainer">
             <iframe title="video" class="body2_video" src="https://drive.google.com/file/d/1TZvCgzB_EW_vSajXBP7nQyTQTcTp1VvO/preview"  allow="autoplay"></iframe>
         </div>
@@ -117,22 +117,22 @@ under a certain project and makes tracking huge projects convenient.</p>
                 </div> 
             </div>
             <div class="row cards">
-                <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
-                    <div class="features_cards ">
+                <div class="col col-md-4 col-xs-12 col-sm-12 col-lg-4">
+                    <div class="features_cards fc1 ">
                         <img class="features_img" src="./Images/manage_projects_and_sourcecodes.svg" alt="">
                         <p class="product_individual_features_card_name">Manage Projects and Source-codes</p>
                         <p class="product_individual_features_description">Have a full view of all the tickets under a project. Create new or update existing tickets. Manage bugs and issues related to applications under development</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
-                    <div class="features_cards">
+                <div class="col col-md-4 col-xs-12 col-sm-12 col-lg-4">
+                    <div class="features_cards fc2">
                         <img class="features_img" src="./Images/manage_milestones.svg" alt="">
                         <p class="product_individual_features_card_name">Manage Milestones</p>
                         <p class="product_individual_features_description">Track milestones, measure growth and easily compare the actual and ideal burndown for milestones.</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
-                    <div class="features_cards">
+                <div class="col col-md-4 col-xs-12 col-sm-12 col-lg-4">
+                    <div class="features_cards fc3">
                         <img class="features_img" src="./Images/time_tracking.svg" alt="">
                         <p class="product_individual_features_card_name">Time-Tracking</p>
                         <p class="product_individual_features_description">Trace your growth on the basis of time spent or time scheduled and come up with an improved course of action.</p>
