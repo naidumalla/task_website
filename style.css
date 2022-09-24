@@ -259,6 +259,7 @@
 .testimonials{
     background-color: #007bff;
     margin-top: 0%;
+    display: none;
 }
 /* Book a Demo */
 .book_a_demo{
