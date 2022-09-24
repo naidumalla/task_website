@@ -539,17 +539,6 @@ section .section-title {
         padding-bottom: 0px;
         margin-bottom: 10px;
     }
-    
-
-    /* .body2_video {
-        margin: auto auto;
-        margin-top: 7%;
-        height: 181px;
-        width: 324px;
-
-    } */
-
-
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .body2_video {
@@ -561,6 +550,9 @@ section .section-title {
     /* Business Challenges */
     .busines_schallanges h2 {
         margin-top: 10%;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 40px;
     }
 
     .business_challenges_description {
@@ -569,11 +561,13 @@ section .section-title {
         width: 100%;
 
     }
-
     .business_challenges_headingleft {
         /* background: url('./Images/yellow_left_responsive.png') !important; */
         /* background-repeat: no-repeat; */
         margin-left: 0%;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 40px;
     }
 
     .busines_schallanges .row {
@@ -584,22 +578,14 @@ section .section-title {
         font-weight: 400;
         font-size: 16px;
         line-height: 22px;
-        color: #DAD9D7;
     }
-
-    .business_challenges_headingleft,
     .business_challenges_headingright {
         font-weight: 600;
         font-size: 16px;
         line-height: 40px;
-        color: #FFFFFF;
     }
 
     /* How Task Works */
-    .how_task_works {
-        background: #FFFFFF;
-    }
-
     .how_task_works h2 {
         font-weight: 700;
         font-size: 20px;
@@ -610,5 +596,42 @@ section .section-title {
         font-weight: 600;
         font-size: 16px;
         line-height: 18px;
+    }
+    /* Features */
+    .features h2{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .features_desc{
+        width: 70%;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+
+    }
+    .features_cards {
+        width: 100%;
+        min-height: 80%;
+        max-height: 80%;
+    }
+    .features_img{
+        width: 15%;
+        height: 15%;
+    }
+    .product_individual_features_card_name {
+
+    }
+
+    .product_individual_features_description {
+
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .body2_video {
+        margin: auto auto;
+        margin-top: 7%;
+        height: 402px;
+        width: 714px;
     }
 }
