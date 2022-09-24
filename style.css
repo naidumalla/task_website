@@ -1,0 +1,448 @@
+.navbar{
+    position: fixed;
+    z-index: 78;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.1);
+}
+.navbar-nav li a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #262626;
+}
+.navbar-nav li{
+    /* width: 100%; */
+    /* padding-right: 5%; */
+}
+.landing_section{
+    margin-top: 3.3%;
+    background-color: yellow;
+}
+/* Business Challenges */
+
+
+/* How Task Works */
+.body2_video {
+    margin: auto auto;
+    border: none;
+    height: 579px;
+    width: 1030px;
+    border-radius: 10px;
+    /* Shadow 1 */
+    box-shadow: 2px 6px 19px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+/* Features */
+.features{
+    background: #0E0E0E;
+}
+.features h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    color: #FBC032;
+}
+.features_desc{
+    width: 45%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: auto auto;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    /* or 100% */
+    text-align: center;
+    color: #DAD9D7;
+}
+.cards{
+    
+}
+.features_cards {
+    padding: 30px;
+    border: 1px solid #FBBE2E;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    /* margin-left: 7%; */
+    min-height: 80%;
+}
+.features_img{
+    width: 15%;
+    height: 15%;
+}
+.product_individual_features_card_name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 6.94%;
+}
+
+.product_individual_features_description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    letter-spacing: -0.02em;
+    color: #DAD9D7;
+}
+/* Pricings */
+.pricings{
+    background-color: #007b5e;
+}
+.pricings h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    margin-bottom: 3%;
+    color: #262626;
+
+}
+.product_individual_features_card_name
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    /* or 250% */
+
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.pricing_item{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    /* or 250% */
+    padding-left: 0%;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.pricings_startat{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    /* identical to box height, or 250% */
+
+
+    color: #FFFFFF;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.pricings_cards{
+    width: 80%;
+    margin-left:20%;
+    margin: auto auto;
+    background: rgba(14, 14, 14, 0.97);
+    border-radius: 10px;
+    padding: 30px;
+    min-height: 300px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+/* Testimonials */
+.testimonials{
+    background-color: #007bff;
+    margin-top: 0%;
+}
+/* Book a Demo */
+.book_a_demo{
+    background: #15130F;
+}
+.book_a_demo .h2{
+    margin-bottom: 5%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #FBBE2E;
+}
+.book_a_demo_desc h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    background: url('./Images/yellow_left.png');
+    background-repeat: no-repeat;
+    /* identical to box height, or 167% */
+
+
+    color: #FFFFFF;
+}
+.bookademo_img{
+    margin-bottom: 0%;
+    margin-left: 15%;
+    padding-top: 5%;
+    /* width: 100%; */
+    height: 100%;
+}
+.bookademo_form{
+    width: 60%;
+    height: 100%;
+    background: rgba(14, 14, 14, 0.97);
+    border: 1px solid #DAD9D7;
+    border-radius: 10px;
+    /* margin: auto auto; */
+}
+.bookademo_form h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 5%;
+    /* identical to box height, or 140% */
+
+
+    color: #DAD9D7;
+}
+.form-group input{
+    background: none;
+    /* background: #0E0E0E; */
+        border: 1px solid #DAD9D7;
+        border-radius: 10px;
+}
+.form-group input::placeholder{
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 7px;
+        /* identical to box height, or 44% */
+    
+        display: flex;
+        align-items: center;
+    
+        color: #DAD9D7;
+}
+.submit_btn{
+    background: #DAD9D7;
+    border-radius: 7px;
+    margin-bottom: 5%;
+}
+/* Frequenty asked questions */
+
+.frequenty_asked_questions{
+    background: #FFFBFF;
+}
+.frequenty_asked_questions .h2 {
+    margin: 10px auto 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #262626;
+}
+
+details {
+    width: 75%;
+    min-height: 5px;
+    max-width: 700px;
+    padding: 45px 70px 45px 45px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 22px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+details+details {
+    margin-top: 20px;
+}
+
+details[open] {
+    min-height: 50px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    /* or 117% */
+    color: #868781;
+    /* background-color: #f6f7f8; */
+    /* box-shadow: 2px 2px 20px rgba(0, 0, 0, .2); */
+}
+
+details p {
+    padding-top: 3%;
+    color: #96999d;
+    font-weight: 300;
+}
+
+summary {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    color: #868781;
+    cursor: pointer;
+}
+
+summary:focus {
+    outline: none;
+    color: #FAB510;
+}
+
+summary:focus::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    /* box-shadow: 0 0 0 5px rebeccapurple; */
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+summary::marker{
+    display: none;
+}
+.control-icon {
+    /* fill: rebeccapurple; */
+    transition: .3s ease;
+    pointer-events: none;
+    float: right;
+}
+
+.control-icon-close {
+    display: none;
+}
+
+details[open] .control-icon-close {
+    display: initial;
+    transition: .3s ease;
+}
+
+details[open] .control-icon-expand {
+    display: none;
+}
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#footer {
+    background: #007b5e !important;
+}
+
+#footer h5 {
+    padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li {
+    padding: 3px 0;
+}
+
+#footer ul.social li a i {
+    margin-right: 5px;
+    font-size: 25px;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#footer ul.social li:hover a i {
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+#footer ul.social li a,
+#footer ul.quick-links li a {
+    color: #ffffff;
+}
+
+#footer ul.social li a:hover {
+    color: #eeeeee;
+}
+
+#footer ul.quick-links li {
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#footer ul.quick-links li:hover {
+    padding: 3px 0;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+#footer ul.quick-links li a i {
+    margin-right: 5px;
+}
+
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px) {
+    #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+}
