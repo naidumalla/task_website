@@ -17,8 +17,11 @@
         
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <>
     <section class=" navbar navbar-expand-lg fixed-top py-lg-0 container-fluid">
         <a class="navbar-brand" href="#">
             <img class="tasklogo" src="./images/task_logo.png" width="90" height="80" alt="">
@@ -53,16 +56,20 @@
     </section>
     <br>
     <!-- Hero Section -->
-    <section class="landing_section container-fluid">
-        <div class="row">
-            <div class="col-md-6">
-                <h1 class="tasktitle">TASK-Ticket Management System</h1>
-                <p class="landing_desc">Be the Pioneer of Agile Software Development Industry</p>
-                <button class="knowmorebtn">Know more</button>
-            </div>
+    <div class="landing-page">
+    
+    <img src="./Images/landing.svg" class="landingImg"/>
+    <!-- <div class="empty"></div> -->
+    <div class="landingCard">
+           
+                <h1 class="tasktitle image-fluid">Ticket Management System</h1>
+                <p class="landing_desc pt-3 pb-2">Be the Pioneer of Agile Software Development Industry with TASK</p>
+                <button class="knowmorebtn">Request a Demo</button>
+            
         </div>
-    </section>
-    <br>
+    </div>
+
+    <!-- <br> -->
     <!-- Buiness Challenges -->
     <section class="busines_schallanges container-fluid">
         <h2 class="h2 section_heading text-center">Business Challenges</h2>
@@ -203,15 +210,15 @@ under a certain project and makes tracking huge projects convenient.</p>
     <section class="book_a_demo container-fluid">
         <h2 class="h2 section_heading text-center mb-0">Book a Demo</h2>
         <div class="row">
-            <div class="book_a_demo_desc col-md-6 col-cs-6 col-lg-6 mt-4 mb-0">
+            <div class="book_a_demo_desc  col-cs-6 col-lg-6 mt-4 mb-0">
                 <h3 class=" bh3 business_challenges_headingleft">Fill up the form to get in touch with us.</h3>
                 <div class="bookademo_img text-center ">
-                    <img style="text-align: center;" src="./Images/book_a_demo_img.svg" alt="">
+                    <img class="image-fluid" style="text-align: center;" src="./Images/book_a_demo_img.svg" alt="">
                 </div>
                 
             </div>
             <br>
-            <div class="bookademo_form col-md-5 col-cs-4 col-lg-5 mt-4 mb-0">
+            <div class="bookademo_form col-md-10 col-cs-4 col-lg-5 mt-4 mb-0">
                 <div class=" text-center mt-5 ">
                     <h1 >TASK - Ticket Management Tool</h1>
                 </div>
@@ -269,7 +276,7 @@ under a certain project and makes tracking huge projects convenient.</p>
         </div>
     </section
     <!-- Frequently Asked Questions -->
-    <section class="frequenty_asked_questions container-fluid">
+    <section class="frequenty_asked_questions container-fluid" >
         <h2 class="h2 section_heading text-center">Frequently Asked Questions</h2>
         <div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
           <svg xmlns="http://www.w3.org/2000/svg">
@@ -282,84 +289,92 @@ under a certain project and makes tracking huge projects convenient.</p>
           </svg>
         </div>
         <details open>
-          <summary>
+          <summary class="accordion-title">
             Where can TASK be used?
             <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
             <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
           </summary>
-          <p>TASK can be used to support any kind of business and to address its requirements in terms of managing work, managing source codes, and in reporting bugs or issues.</p>
+          <p class="accordion-info">TASK can be used to support any kind of business and to address its requirements in terms of managing work, managing source codes, and in reporting bugs or issues.</p>
         </details>
         <hr style="width: 42%;">
-        <details>
+        <details >
         
-          <summary>
+          <summary class="accordion-title">
             What are the distinctive features of TASK?
             <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
             <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
-          </summary>
-          <p>The features that make TASK unique are; Time Tracking, Manage Milestone, Reporting Bugs/Issues, and a full view of tickets under a project.</p>
+          </summary class="accordion-title">
+          <p class="accordion-info">The features that make TASK unique are; Time Tracking, Manage Milestone, Reporting Bugs/Issues, and a full view of tickets under a project.</p>
         </details>
         <hr style="width: 42%;">
         <details>
-          <summary>
+          <summary class="accordion-title">
             Who all can use TASK?
             <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
             <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
           </summary>
-          <p>Developer, Manager and Administrator can use TASK and the various features which come with their profiles.</p>
+          <p class="accordion-info">Developer, Manager and Administrator can use TASK and the various features which come with their profiles.</p>
         </details>
         <hr style="width: 42%;">
         <details>
-          <summary>
+          <summary class="accordion-title">
             Can we use TASK as a code repository?  
             <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
             <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
           </summary>
-          <p>OnlyYes. TASK works well as a source code management tool.</p>
+          <p class="accordion-info">OnlyYes. TASK works well as a source code management tool.</p>
         </details>
         <hr style="width: 42%;">
         <details>
-          <summary class="">
+          <summary class="accordion-title" >
             What are the different interfaces of TASK?    
             <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
             <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
           </summary>
-          <p>Task is designed with two user-friendly interfaces; web and app.</p>
+          <p class="accordion-info">Task is designed with two user-friendly interfaces; web and app.</p>
         </details>
     </section>
     <!-- Footer -->
 	<section id="footer">
-		<div class="container">
+		<div class="container-fluid ml-5 mr-5 pr-5" >
 			<div class="row text-center text-xs-left text-sm-left text-md-left">
-				<div class="col-xs-6 col-sm-4 col-md-8">
-					<h5>TASK- Ticket Management System</h5>
-					<ul class="list-unstyled quick-links">
+				<div class="col-xs-5 col-sm-3 col-md-7" >
+                    <div class="justify-center align-items-center d-flex">
+
+                        <img class="tasklogo" src="./images/task_logo.png" width="80" height="70" alt="">
+            
+                                <h5 class="pl-4">TASK- Ticket Management System</h5>
+                    </div>
+                    <div>
+					<ul class="list-unstyled quick-links footerInfo mt-4" style="width: 55%;">
 						<li>A Simple project and source-code management tool designed for the ease of Developer, Manager and Administrator.</li>
-                        <li>Developed by</li>
-                        <li><img src="./Images/nfc_logo_small 1.png" alt=""></li>
+                        <li class="mt-3 mb-4 developeby">Developed by</li>
+                        <li><img src="./Images/nfc_logo_small 1.png" width="95" height="95" alt=""></li>
                     </ul>
+                </div>
 				</div>
 				<div class="col-xs-6 col-sm-4 col-md-2">
-					<h5>Product</h5>
+					<h5 class="pb-3">Product</h5>
 					<ul class="list-unstyled quick-links">
-						<li><a href=""><i class="fa fa-angle-double-right"></i>How Task works?</a></li>
-						<li><a href=""><i class="fa fa-angle-double-right"></i>Features</a></li>
-						<li><a href=""><i class="fa fa-angle-double-right"></i>Pricings</a></li>
-						<li><a href=""><i class="fa fa-angle-double-right"></i>FAQs</a></li>
-						<li><a href=""><i class="fa fa-angle-double-right"></i>Book a demo</a></li>
+						<li class=""><a href=""><i class="fa fa-angle-double-right"></i>How Task works?</a></li>
+						<li class="pt-2"><a href=""><i class="fa fa-angle-double-right"></i>Features</a></li>
+						<li class="pt-2"><a href=""><i class="fa fa-angle-double-right"></i>Pricings</a></li>
+						<li class="pt-2"><a href=""><i class="fa fa-angle-double-right"></i>FAQs</a></li>
+						<li class="pt-2"><a href=""><i class="fa fa-angle-double-right"></i>Book a demo</a></li>
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-2">
-					<h5>Resource</h5>
+					<h5 class="pb-3">Resource</h5>
 					<ul class="list-unstyled quick-links">
 						<li><a href=""><i class="fa fa-angle-double-right"></i>Terms & conditions</a></li>
-						<li><a href=""><i class="fa fa-angle-double-right"></i>Privacy Policy</a></li>
+						<li class="pt-2"><a href=""><i class="fa fa-angle-double-right"></i>Privacy Policy</a></li>
 					</ul>
 				</div>
 			</div>
-            <hr>
-            <div class="row text-xs-center text-sm-left text-md-left">© Copyright TASK. All Rights Reserved</div>
+            <hr class="endline">
         </div>
+        <div class="endLine container"></div>
+        <div class="endInfo text-right pr-5">© Copyright TASK. All Rights Reserved</div>
 	</section>
 	<!-- ./Footer -->
     <script src="js/jquery-3.6.0.min.js"></script>
