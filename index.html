@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" type="image/x-icon" href="./Images/task_logo.png" />
         <title>Task Website</title>
-        <link rel="stylesheet" href="style.css">
+        
+        
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -20,6 +21,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
     </head>
     <>
     <section class=" navbar navbar-expand-lg fixed-top py-lg-0 container-fluid">
@@ -122,23 +126,23 @@ under a certain project and makes tracking huge projects convenient.</p>
                 <p class="features_desc text-center">These are the key features to familiarize you with the most important aspects of the product.</p>
                 </div> 
             </div>
-            <div class="row cards">
-                <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
-                    <div class="features_cards fc1 ">
+            <div class="row cards ">
+                <div class="col-md-12 col-sm-12 col-lg-4">
+                    <div class="features_cards fc1 text-left ">
                         <img class="features_img" src="./Images/manage_projects_and_sourcecodes.svg" alt="">
                         <p class="product_individual_features_card_name">Manage Projects and Source-codes</p>
                         <p class="product_individual_features_description">Have a full view of all the tickets under a project. Create new or update existing tickets. Manage bugs and issues related to applications under development</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
-                    <div class="features_cards fc2">
+                <div class="col-md-12 col-sm-12 col-lg-4">
+                    <div class="features_cards fc2 text-left">
                         <img class="features_img" src="./Images/manage_milestones.svg" alt="">
                         <p class="product_individual_features_card_name">Manage Milestones</p>
                         <p class="product_individual_features_description">Track milestones, measure growth and easily compare the actual and ideal burndown for milestones.</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
-                    <div class="features_cards fc3">
+                <div class="col-md-12 col-sm-12 col-lg-4">
+                    <div class="features_cards fc3 text-left">
                         <img class="features_img" src="./Images/time_tracking.svg" alt="">
                         <p class="product_individual_features_card_name">Time-Tracking</p>
                         <p class="product_individual_features_description">Trace your growth on the basis of time spent or time scheduled and come up with an improved course of action.</p>
@@ -207,74 +211,84 @@ under a certain project and makes tracking huge projects convenient.</p>
         <h2 class="h2 section_heading text-center">Testimonials</h2>
     </section> -->
     <!-- Book a Demo -->
-    <section class="book_a_demo container-fluid">
+    <section class="book_a_demo">
         <h2 class="h2 section_heading text-center mb-0">Book a Demo</h2>
+        <div class="container-fluid rev">
         <div class="row">
-            <div class="book_a_demo_desc  col-cs-6 col-lg-6 mt-4 mb-0">
-                <h3 class=" bh3 business_challenges_headingleft">Fill up the form to get in touch with us.</h3>
-                <div class="bookademo_img text-center ">
-                    <img class="image-fluid" style="text-align: center;" src="./Images/book_a_demo_img.svg" alt="">
+            <div class=" col-lg-6 col-md-6 ">
+                <div class="book_a_demo_desc">
+                    <h3 class=" bh3 business_challenges_headingleft">Fill up the form to get in touch with us.</h3>
+                    
+                    <img class="bookademo_img text-center image-fluid" style="text-align: center;" src="./Images/book_a_demo_img.svg" alt="">
+                    
                 </div>
+                
                 
             </div>
             <br>
-            <div class="bookademo_form col-md-10 col-cs-4 col-lg-5 mt-4 mb-0">
-                <div class=" text-center mt-5 ">
-                    <h1 >TASK - Ticket Management Tool</h1>
-                </div>
-                <form id="contact-form" role="form">
-                    <div class="controls">
-                        <div class="row">
-                            <div class="col-md-6 ">
-                                <div class="form-group">
-                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname" required="required" data-error="Firstname is required.">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname" required="required" data-error="Lastname is required.">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">      
-                                </div>
-                            </div> 
-                        </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Company Name" required="required" data-error="Firstname is required.">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Phone Number" required="required" data-error="Firstname is required.">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">  
-                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Job Function" required="required" data-error="Lastname is required.">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            
-                            <div class="col-md-6col-lg-6 submit_btn mb-4">
-                                <input type="submit" class="btn btn-send   pt-2 btn-block submit" value="Request a demo" >   
-                            </div>
-                        </div>
+            <div class=" col-md-6 col-lg-6 ">
+                <div class="bookademo_form">
+                    <div class=" text-center mt-5 ">
+                        <h1 >TASK - Ticket Management Tool</h1>
                     </div>
-                </form>
+                    <form id="contact-form" role="form">
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-md-6 ">
+                                    <div class="form-group">
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="First name" required="required" data-error="Firstname is required.">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Last name" required="required" data-error="Lastname is required.">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="Valid email is required.">      
+                                    </div>
+                                </div> 
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Company Name" required="required" data-error="Firstname is required.">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Phone Number" required="required" data-error="Firstname is required.">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">  
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Job Function" required="required" data-error="Lastname is required.">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                
+                                <div class="col-md-6col-lg-6 submit_btn mb-4">
+                                    <input type="submit" class="btn btn-send   pt-2 btn-block submit" value="Request a demo" >   
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
             </div>
+        
             
         </div>
-    </section
+        </div>
+        
+    </section>
     <!-- Frequently Asked Questions -->
     <section class="frequenty_asked_questions container-fluid" >
         <h2 class="h2 section_heading text-center">Frequently Asked Questions</h2>
@@ -335,10 +349,46 @@ under a certain project and makes tracking huge projects convenient.</p>
         </details>
     </section>
     <!-- Footer -->
-	<section id="footer">
+    <footer>
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="row1 col-md-7 ">
+                        <img class="pulsel" src="images/task_logo.png" alt="">
+                        <h1>Lorem ipsum dolor sit amet, consur adipiscing elit ut aliquam, purus sit amet dipiscing elit ut aliquam, purus sit . </h1>
+                        <h3>Developed by</h3>
+                        <img class="nfc1" src="images/nfc_logo_small 1.png" alt="">
+                    </div>
+                    <div class="col-md-5 ">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                
+                                <ul><h2>Product</h2>
+                                    <li><a href="#features">Features</a> </li>
+                                    <li><a href="#videosection">Demo Video</a> </li>
+                                    <li><a href="#faq">FAQ’s</a> </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                
+                                <ul><h2>Resource</h2>
+                                    <li>Terms of conditions</li>
+                                    <li>Privacy Policy</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+	<!-- <section id="footer">
 		<div class="container-fluid ml-5 mr-5 pr-5" >
 			<div class="row text-center text-xs-left text-sm-left text-md-left">
-				<div class="col-xs-5 col-sm-3 col-md-7" >
+				<div class="col-md-7" >
                     <div class="justify-center align-items-center d-flex">
 
                         <img class="tasklogo" src="./images/task_logo.png" width="80" height="70" alt="">
@@ -353,29 +403,35 @@ under a certain project and makes tracking huge projects convenient.</p>
                     </ul>
                 </div>
 				</div>
-				<div class="col-xs-6 col-sm-4 col-md-2">
-					<h5 class="pb-3">Product</h5>
-					<ul class="list-unstyled quick-links">
-						<li class=""><a href=""><i class="fa fa-angle-double-right"></i>How Task works?</a></li>
-						<li class="pt-2"><a href=""><i class="fa fa-angle-double-right"></i>Features</a></li>
-						<li class="pt-2"><a href=""><i class="fa fa-angle-double-right"></i>Pricings</a></li>
-						<li class="pt-2"><a href=""><i class="fa fa-angle-double-right"></i>FAQs</a></li>
-						<li class="pt-2"><a href=""><i class="fa fa-angle-double-right"></i>Book a demo</a></li>
-					</ul>
+				<div class="col-md-5">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h5 class="pb-3">Product</h5>
+                            <ul class="list-unstyled quick-links">
+                                <li class=""><a href=""><i class="fa fa-angle-double-right"></i>How Task works?</a></li>
+                                <li class="pt-2"><a href=""><i class="fa fa-angle-double-right"></i>Features</a></li>
+                                <li class="pt-2"><a href=""><i class="fa fa-angle-double-right"></i>Pricings</a></li>
+                                <li class="pt-2"><a href=""><i class="fa fa-angle-double-right"></i>FAQs</a></li>
+                                <li class="pt-2"><a href=""><i class="fa fa-angle-double-right"></i>Book a demo</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <h5 class="pb-3">Resource</h5>
+                            <ul class="list-unstyled quick-links">
+                                <li><a href=""><i class="fa fa-angle-double-right"></i>Terms & conditions</a></li>
+                                <li class="pt-2"><a href=""><i class="fa fa-angle-double-right"></i>Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+					
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-2">
-					<h5 class="pb-3">Resource</h5>
-					<ul class="list-unstyled quick-links">
-						<li><a href=""><i class="fa fa-angle-double-right"></i>Terms & conditions</a></li>
-						<li class="pt-2"><a href=""><i class="fa fa-angle-double-right"></i>Privacy Policy</a></li>
-					</ul>
-				</div>
+				
 			</div>
             <hr class="endline">
         </div>
         <div class="endLine container"></div>
         <div class="endInfo text-right pr-5">© Copyright TASK. All Rights Reserved</div>
-	</section>
+	</section> -->
 	<!-- ./Footer -->
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src=" js/bootstrap.bundle.min.js"></script>
