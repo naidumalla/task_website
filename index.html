@@ -19,16 +19,17 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     </head>
     <>
     <section class=" navbar navbar-expand-lg fixed-top py-lg-0 container-fluid">
         <a class="navbar-brand" href="#">
-            <img class="tasklogo" src="./images/task_logo.png" width="90" height="80" alt="">
+            <img class="tasklogo" src="./images/task_logo.png" width="90" height="50" alt="">
         </a>
      
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,22 +38,22 @@
   
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item pr-4 ">
-                    <a class="nav-link" href="#">How TASK Works?
+                <li class="nav-item pr-4 mr-4 ">
+                    <a class="nav-link" href="#howtaskworks">How TASK Works?
                     </a>
                 </li>
-                <li class="nav-item pr-4 pl-4">
-                    <a class="nav-link" href="#">Features</a>
+                <li class="nav-item pr-4 pl-4 mr-4">
+                    <a class="nav-link" href="#features">Features</a>
                 </li>
-                <li class="nav-item pr-4 pl-4">
+                <!-- <li class="nav-item pr-4 pl-4 mr-4">
                     <a class="nav-link" href="#">Pricings</a>
+                </li> -->
+                <li class="nav-item pr-4 pl-4 mr-4">
+                    <a class="nav-link" href="#faqs">FAQs</a>
                 </li>
-                <li class="nav-item pr-4 pl-4">
-                    <a class="nav-link" href="#">FAQs</a>
-                </li>
-                <button type="button" class="bookademo">
-                    <li class="nav-item pr-4 pl-4">
-                        <a class="nav-link" href="#">Book a demo</a>
+                <button type="button" class="bookademo mr-4">
+                    <li class="nav-item pr-0 pl-0 ">
+                        <a class="nav-link" href="#bookademo">Book a demo</a>
                     </li>
                 </button>
             </ul>
@@ -75,7 +76,7 @@
 
     <!-- <br> -->
     <!-- Buiness Challenges -->
-    <section class="busines_schallanges container-fluid">
+    <section id="businesschallenges" class="busines_schallanges container-fluid">
         <h2 class="h2 section_heading text-center">Business Challenges</h2>
         <div class="row ">
             <div class="col-md-8 col-xs-12 col-sm-12 col-lg-8 leftdiv ">
@@ -107,7 +108,7 @@ under a certain project and makes tracking huge projects convenient.</p>
         </div>
     </section>
     <!-- How Task Works -->
-    <section class="how_task_works container-fluid">
+    <section class="how_task_works container-fluid" id="howtaskworks">
         <h2 class="h2 section_heading text-center">How TASK Works?</h2>
         <p class="how_task_works_desc text-center">TASK is designed uniquely to be used by any agile developer, manager and administrator.</p>
 
@@ -119,7 +120,7 @@ under a certain project and makes tracking huge projects convenient.</p>
 
 
     <!-- Features -->
-    <section class="features container-fluid">
+    <section class="features container-fluid" id="features" >
             <div class="row">
                 <div class="col-md-12">
                 <h2 class="h2 section_heading text-center">Features</h2>
@@ -211,7 +212,7 @@ under a certain project and makes tracking huge projects convenient.</p>
         <h2 class="h2 section_heading text-center">Testimonials</h2>
     </section> -->
     <!-- Book a Demo -->
-    <section class="book_a_demo">
+    <section class="book_a_demo" id="bookademo">
         <h2 class="h2 section_heading text-center mb-0">Book a Demo</h2>
         <div class="container-fluid rev">
         <div class="row">
@@ -236,11 +237,14 @@ under a certain project and makes tracking huge projects convenient.</p>
                             <div class="row">
                                 <div class="col-md-6 ">
                                     <div class="form-group">
-                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="First name" required="required" data-error="Firstname is required.">
+                                        <!-- <i class="itag fa fa-user icon"></i> -->
+                                        <input id="form_name" type="text" name="name" class="form-control fa fa-user fa-lg" placeholder="First name" required="required" data-error="Firstname is required.">
+                                    
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
+                                        <!-- <i class="itag fa fa-user icon"></i> -->
                                         <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Last name" required="required" data-error="Lastname is required.">
                                     </div>
                                 </div>
@@ -248,6 +252,7 @@ under a certain project and makes tracking huge projects convenient.</p>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
+                                        <!-- <i class="itag fa fa-envelope icon"></i> -->
                                         <input id="form_email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="Valid email is required.">      
                                     </div>
                                 </div> 
@@ -274,8 +279,8 @@ under a certain project and makes tracking huge projects convenient.</p>
                             </div>
                             <div class="row">
                                 
-                                <div class="col-md-6col-lg-6 submit_btn mb-4">
-                                    <input type="submit" class="btn btn-send   pt-2 btn-block submit" value="Request a demo" >   
+                                <div class="col-md-6 col-lg-6 submit_btn  w-60">
+                                    <input type="submit" class="btn btn-send   pt-2 btn-block submit" value=" Request a demo" >   
                                 </div>
                             </div>
                         </div>
@@ -290,7 +295,7 @@ under a certain project and makes tracking huge projects convenient.</p>
         
     </section>
     <!-- Frequently Asked Questions -->
-    <section class="frequenty_asked_questions container-fluid" >
+    <section class="frequenty_asked_questions container-fluid" id="faqs" >
         <h2 class="h2 section_heading text-center">Frequently Asked Questions</h2>
         <div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
           <svg xmlns="http://www.w3.org/2000/svg">
@@ -310,7 +315,8 @@ under a certain project and makes tracking huge projects convenient.</p>
           </summary>
           <p class="accordion-info">TASK can be used to support any kind of business and to address its requirements in terms of managing work, managing source codes, and in reporting bugs or issues.</p>
         </details>
-        <hr style="width: 42%;">
+        <hr style="width:52%;margin-left:23%;">
+        
         <details >
         
           <summary class="accordion-title">
@@ -320,7 +326,7 @@ under a certain project and makes tracking huge projects convenient.</p>
           </summary class="accordion-title">
           <p class="accordion-info">The features that make TASK unique are; Time Tracking, Manage Milestone, Reporting Bugs/Issues, and a full view of tickets under a project.</p>
         </details>
-        <hr style="width: 42%;">
+        <hr style="width:52%;margin-left:23%;">
         <details>
           <summary class="accordion-title">
             Who all can use TASK?
@@ -329,7 +335,7 @@ under a certain project and makes tracking huge projects convenient.</p>
           </summary>
           <p class="accordion-info">Developer, Manager and Administrator can use TASK and the various features which come with their profiles.</p>
         </details>
-        <hr style="width: 42%;">
+        <hr style="width:52%;margin-left:23%;">
         <details>
           <summary class="accordion-title">
             Can we use TASK as a code repository?  
@@ -338,7 +344,7 @@ under a certain project and makes tracking huge projects convenient.</p>
           </summary>
           <p class="accordion-info">OnlyYes. TASK works well as a source code management tool.</p>
         </details>
-        <hr style="width: 42%;">
+        <hr style="width:52%;margin-left:23%;">
         <details>
           <summary class="accordion-title" >
             What are the different interfaces of TASK?    
@@ -364,9 +370,9 @@ under a certain project and makes tracking huge projects convenient.</p>
                             <div class="col-md-6 col-sm-6">
                                 
                                 <ul><h2>Product</h2>
-                                    <li><a href="#features">Features</a> </li>
-                                    <li><a href="#videosection">Demo Video</a> </li>
-                                    <li><a href="#faq">FAQ’s</a> </li>
+                                    <li><a class="plinks" href="#features">Features</a> </li>
+                                    <li><a class="plinks" href="#howtaskworks">Demo Video</a> </li>
+                                    <li><a class="plinks" href="#faqs">FAQ’s</a> </li>
                                 </ul>
                             </div>
                             <div class="col-md-6 col-sm-6">
