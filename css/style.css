@@ -307,18 +307,26 @@
 .knowmorebtn {
     padding: 11px 20px 11px 20px;
     color:
-        rgba(38, 38, 38, 1);
+        rgba(38, 38, 38, 1) !important;
     font-size: 19px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 1) !important;
     border-radius: 10px;
-    border: 2.4px solid #FAB510;
+    border: 2.4px solid #FAB510 !important;
     font-weight: 600;
     transition: 0.4s;
+    text-decoration: none;
 }
-
-.knowmorebtn:hover {
-    background-color: #FAB510;
+.knowmorebtn a{
+    text-decoration: none;
+    color: rgba(38, 38, 38, 1);
+}
+.knowmorebtn a:hover {
+    text-decoration: none;
     color: rgba(255, 255, 255, 1);
+}
+.knowmorebtn:hover {
+    background-color: #FAB510 !important;
+    color: rgba(255, 255, 255, 1) !important;
 }
 
 /* .pricings{
