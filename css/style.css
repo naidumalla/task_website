@@ -260,19 +260,19 @@
 
 /* Pricings */
 .landingImg {
-    /* height: 600px; */
     margin-top: 17%;
     width: 100%;
-    background-color: #0072AE;
+    height: 100%;
     background-image: linear-gradient(to bottom, #ffffff, #FEEFCC, #FEEFCC, #FEEFCC, #FDEABB, #FDEABB, #FDEABB, #FBCC5A, #FBCC5A, #FBC84C, #FBC84C, #FBC84C, #fab510);
     position: relative;
     top: 10%;
-    object-fit: cover;
-        /* display: block; */
+    /* display: block; */
 }
 
 .landing-page {
     position: relative;
+    margin-bottom: 0%;
+    margin: 0';
 }
 
 .empty {
