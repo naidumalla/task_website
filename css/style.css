@@ -524,7 +524,14 @@
     transition: 0.8s;
 
 }
-
+details{
+    width: 60%;
+    
+}
+.line{
+    width: 52%;
+    margin-left: 23%;
+}
 .container {
     max-width: 970px;
 }
@@ -932,11 +939,23 @@ footer a {
     margin-bottom: 50px;
   }
 @media (max-width:767px) {
+    /* footer .container{
+        margin: auto auto;
+        text-align: center;
+    } */
+    .line{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .bookademo_img{
+        margin-left: 20%;
+    }
     #footer h5 {
         padding-left: 0;
         border-left: transparent;
         padding-bottom: 0px;
         margin-bottom: 10px;
+        text-align: center;
     }
 
     .landing_desc {
@@ -1109,7 +1128,10 @@ footer a {
         max-width: 400px;
         height: auto;
     }
-
+    .line{
+        width: 50%;
+        margin-left: 25%;
+    }
 }
 
 @media screen and(max-width:700px) {
